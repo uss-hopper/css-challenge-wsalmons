@@ -61,6 +61,23 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+header {
+	background-color: #303030;
+}
 
+h1 {
+	position: static;
+	padding-top: 2%;
+	padding-bottom: 0%;
+	margin-top: 0;
+	color: #00FF00;
+}
+
+em {
+	position: relative;
+	bottom: 45px;
+	left: 300px;
+	color: #00FF00;
+}
 
 
