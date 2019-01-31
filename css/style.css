@@ -61,23 +61,30 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+body {
+	font-family: courier-new, monospace;
+}
+
+/* HEADER */
+
 header {
-	background-color: #303030;
-}
-
-h1 {
-	position: static;
-	padding-top: 2%;
-	padding-bottom: 0%;
-	margin-top: 0;
-	color: #00FF00;
-}
-
-em {
 	position: relative;
-	bottom: 45px;
-	left: 300px;
-	color: #00FF00;
+	bottom: 5px;
+	background-color: #303030;
+	color: #00FF01;
 }
+
+.sfooter-content > header > .container > h1 {
+	display: inline-block;
+	font-size: 49px;
+	letter-spacing: 1.5px;
+	padding-right: 40px;
+}
+
+.sfooter-content > header > .container > em {
+	letter-spacing: 1px;
+}
+
 
 
