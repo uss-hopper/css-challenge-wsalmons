@@ -127,7 +127,22 @@ div.container > img {
 	margin-right: auto;
 }
 
+/*
+About Me Rules
+ */
 
+.about-me {
+	background-color: blue;
+}
+
+.about-me .container img {
+	float: left;
+	max-width: 30%;
+	border: 5px solid white;
+}
+
+.about-me h2, p {
+}
 
 
 
