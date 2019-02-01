@@ -77,15 +77,41 @@ header {
 	color: #00FF01;
 }
 
-.sfooter-content > header > .container > h1 {
+.sfooter-content  header  .container  h1 {
 	display: inline-block;
 	font-size: 49px;
 	letter-spacing: 1.5px;
 	padding-right: 40px;
 }
 
-.sfooter-content > header > .container > em {
+.sfooter-content  header  .container  em {
 	letter-spacing: 1px;
+}
+
+/*
+Instructions Panel Rules
+ */
+
+.instructions-wrapper {
+	display: block;
+	margin-left: auto;
+	border: 5px solid black;
+}
+
+.instructions-wrapper h2 {
+	margin-left: 12px;
+	max-width: 40%;
+}
+
+.instructions-wrapper ol {
+
+	float: left;
+	max-width: 40%;
+}
+
+.instructions-wrapper img {
+	float: right;
+	max-width: 25%;
 }
 
 /*
@@ -94,13 +120,14 @@ Welcome Image Rules
 
 div.container > img {
 	display: block;
+	padding: 2em 2em 2em 2em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/*
-Instructions Panel Rules
- */
+
+
+
 
 
 
