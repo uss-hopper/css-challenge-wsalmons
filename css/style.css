@@ -99,11 +99,15 @@ Instructions Panel Rules
 }
 
 .instructions-content {
+	padding-top: 14px;
+	padding-left: 10px;
 	font-weight: bold;
-	letter-spacing: 0.04em;
+	font-size: 17.5px;
+	line-height: 99%;
+	letter-spacing: .2px;
 	float: left;
 	margin-left: 1.25em;
-	max-width: 45%;
+	max-width: 47%;
 }
 
 .instructions-wrapper img {
