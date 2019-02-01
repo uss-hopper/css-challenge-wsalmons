@@ -132,17 +132,42 @@ About Me Rules
  */
 
 .about-me {
+	display: block;
 	background-color: blue;
+	padding-top: 68px;
+	padding-bottom: 40px;
+	margin-top: 68px;
 }
 
 .about-me .container img {
 	float: left;
 	max-width: 30%;
-	border: 5px solid white;
+	border: 3px solid white;
+	padding: 0 0 0 0;
 }
 
-.about-me h2, p {
+.about-me .container h2{
+	float: right;
+	position: relative;
+	right: 520px;
+	bottom: 25px;
+	color: white;
 }
+
+.about-me .container p {
+	float: right;
+	position: relative;
+	bottom: 30px;
+	max-width: 67%;
+	color: white;
+}
+
+.about-me .container p span {
+	font-weight: bold;
+	font-style: italic;
+	color: yellow;
+}
+
 
 
 
