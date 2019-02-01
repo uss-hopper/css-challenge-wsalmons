@@ -168,6 +168,30 @@ About Me Rules
 	color: yellow;
 }
 
+/*
+Professional Skillz Rules
+ */
+
+section .container > h2 {
+	margin-top: 60px;
+	text-align: right;
+}
+
+section .container > table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: left;
+	background-color: #303030;
+	color: #00FF01;
+	border-collapse: collapse;
+	margin-bottom: 50px;
+}
+
+th, td {
+	padding: 15px;
+	border: 3px solid white;
+}
 
 
 
