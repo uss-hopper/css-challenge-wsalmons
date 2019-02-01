@@ -147,10 +147,10 @@ About Me Rules
 }
 
 .about-me .container h2{
-	float: right;
+	float: left;
 	position: relative;
-	right: 520px;
-	bottom: 25px;
+	bottom: 20px;
+	margin-left: 2%;
 	color: white;
 }
 
