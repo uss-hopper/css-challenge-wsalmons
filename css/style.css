@@ -98,27 +98,17 @@ Instructions Panel Rules
 	border: 5px solid black;
 }
 
-.instructions-wrapper h2 {
-	position: relative;
-	top: 15px;
-	left: 15px;
+.instructions-content {
+	font-weight: bold;
+	letter-spacing: 0.04em;
 	float: left;
-	margin-left: 12px;
-	max-width: 40%;
-}
-
-.instructions-wrapper ol {
-	position: absolute;
-	bottom: 150px;
-	left: 200px;
-	display: block;
-	float: left;
-	max-width: 40%;
+	margin-left: 1.25em;
+	max-width: 45%;
 }
 
 .instructions-wrapper img {
 	float: right;
-	max-width: 25%;
+	max-width: 22%;
 	padding: 2em 2em 2em 2em;
 }
 
@@ -128,7 +118,7 @@ Welcome Image Rules
 
 div.container > img {
 	display: block;
-	padding: 2em 2em 2em 2em;
+	padding: 3.5em 2em 2em 2em;
 	margin-left: auto;
 	margin-right: auto;
 }
