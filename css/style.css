@@ -112,7 +112,7 @@ Instructions Panel Rules
 
 .instructions-wrapper img {
 	float: right;
-	max-width: 22%;
+	max-width: 250px;
 	padding: 2em 2em 2em 2em;
 }
 
@@ -132,10 +132,9 @@ About Me Rules
  */
 
 .about-me {
-	display: block;
 	background-color: blue;
 	padding-top: 68px;
-	padding-bottom: 40px;
+	padding-bottom: 7px;
 	margin-top: 68px;
 }
 
@@ -149,7 +148,7 @@ About Me Rules
 .about-me .container h2{
 	float: left;
 	position: relative;
-	bottom: 20px;
+	bottom: 65px;
 	margin-left: 2%;
 	color: white;
 }
@@ -157,7 +156,7 @@ About Me Rules
 .about-me .container p {
 	float: right;
 	position: relative;
-	bottom: 30px;
+	bottom: 80px;
 	max-width: 67%;
 	color: white;
 }
