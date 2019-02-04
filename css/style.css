@@ -77,14 +77,14 @@ header {
 	color: #00FF01;
 }
 
-.sfooter-content  header  .container  h1 {
+header  .container  h1 {
 	display: inline-block;
 	font-size: 49px;
 	letter-spacing: 1.5px;
 	padding-right: 40px;
 }
 
-.sfooter-content  header  .container  em {
+header  .container  em {
 	letter-spacing: 1px;
 }
 
@@ -141,7 +141,7 @@ About Me Rules
 
 .about-me .container img {
 	float: left;
-	max-width: 30%;
+	max-width: 350px;
 	border: 3px solid white;
 	padding: 0 0 0 0;
 }
@@ -173,6 +173,7 @@ Professional Skillz Rules
  */
 
 section .container > h2 {
+	font-weight: bold;
 	margin-top: 60px;
 	text-align: right;
 }
@@ -193,7 +194,57 @@ th, td {
 	border: 3px solid white;
 }
 
+/*
+Contact Form Rules
+ */
+.contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #303030;
+}
 
+.form-wrapper {
+	padding: 2em;
+	background-color: #1d6017;
+}
 
+.form-wrapper h2 {
+	color: #00FF01;
 
+}
 
+.form-wrapper label {
+
+	display: block;
+	color: #00FF01;
+}
+
+.form-wrapper input, textarea {
+	height: 2em;
+	width: 30%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+.form-wrapper textarea {
+	height: 12em;
+}
+
+.form-wrapper button {
+	margin-top: 1em;
+	padding: .5em 2em .5em 2em;
+	font-family: courier-new, monospace;
+	font-weight: bold;
+	background-color: #00FF01;
+	border: none;
+;
+}
+
+footer {
+	padding: 1em 1em;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-left: 0;
+	margin-right: 0;
+}
